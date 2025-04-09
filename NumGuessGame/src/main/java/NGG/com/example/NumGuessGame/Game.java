@@ -25,7 +25,7 @@ public class Game
         Scanner scanner = new Scanner(System.in);
         while (attempts < maxAttempts)
         {
-            System.out.print("Enter your guess: ");
+            System.out.print("Enter your guess: \n");
             int guess = scanner.nextInt();
             attempts++;
 
